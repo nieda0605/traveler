@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## 学習メモ
+- 2026/5/5 初めてのコミット練習
+- Railsの勉強を始めました！
