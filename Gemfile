@@ -70,3 +70,4 @@ gem 'bootstrap', '~> 5.3.0'
 gem 'jquery-rails'
 
 gem "sassc-rails"
+gem "image_processing", "~> 1.2"
