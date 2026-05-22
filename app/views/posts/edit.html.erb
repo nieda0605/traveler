@@ -18,10 +18,10 @@
           <% if @post.image.attached? %>
             <%= image_tag @post.image.variant(resize_to_limit: [450, 350]) %><br>
           <% end %>
-          <label class="form-label">画像を変更</label><br>
+          <label class="form-label">画像を変更し</label><br>
           <%= f.file_field :image %><br>
         </div>
-        <%= f.submit '保存す', class: "btn btn-success" %><br>
+        <%= f.submit '保存する', class: "btn btn-success" %><br>
         <%= link_to '投稿詳細ページへ', post_path(@post), class: "btn btn-dark mt-3" %>
       <% end %>
     </div>
