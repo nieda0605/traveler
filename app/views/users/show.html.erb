@@ -4,12 +4,12 @@
       <% if user_signed_in? && @user == current_user %>
         <h1 class="font-weight-normal">マイページ</h1>
       <% else %>
-        <h1 class="font-weight-normal"><%= @user.name %>さんページ</h1>
+        <h1 class="font-weight-normal"><%= @user.name %>さんのページ</h1>
       <% end %>
    </div>
    <% if user_signed_in? && @user == current_user %>
      <p class="d-flex align-self-end">
-       <%= link_to "プロフィール編集", edit_user_path(@user), class: "btn btn-success" %>
+       <%= link_to "プフィール編集", edit_user_path(@user), class: "btn btn-success" %>
      </p>
    <% end %>
    <div class="d-flex w-100">
