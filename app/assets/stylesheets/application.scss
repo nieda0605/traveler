@@ -69,3 +69,12 @@ a:hover {
   color: aqua!important;
   text-decoration: underline;
 }
+
+.profile-img {
+  border-radius: 9999px !important;
+  width: 120px !important;
+  height: 120px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  overflow: hidden !important;
+}
