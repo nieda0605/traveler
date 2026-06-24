@@ -11,5 +11,5 @@ ja:
             password:
               blank: "パスワードを入力してください。"
             name:
-              blank: "名前を入力してくさい。"
+              blank: "名前を入力してくださ。"
     
